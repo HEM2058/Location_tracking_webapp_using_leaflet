@@ -24,11 +24,6 @@ var baseMap = {
 
 L.control.layers(baseMap).addTo(map);
 
-//adding geoJSON file
-// L.geoJSON(nepalData).addTo(map);
-
-//real time location tracker
-
 if(!navigator.geolocation)
 {
     console.log("your browser does not support geolocation service")
